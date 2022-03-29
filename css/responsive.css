@@ -1,0 +1,369 @@
+/* ========= phone =  480px | sm applies to x-small devices (portrait phones, less than 576px) ========= */
+@media (min-width: 320px) and (max-width: 575px) {
+    container {
+        max-width: 310px;
+    }
+
+    /* =============== navbar css start =============== */
+    #home {
+        background: url(../img/home.png);
+        background-size: cover;
+        height: 600px;
+    }
+
+    #navmenu ul li a {
+        float: right;
+    }
+
+    .sticky-top {
+        position: sticky;
+    }
+
+    /* =============== navbar css end =================== */
+    /* =============== header css start =============== */
+
+    .card .card-body .card-title {
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .card .card-body .card-subtitle {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .card .card-body .card-text {
+        max-width: 350px;
+        justify-content: center;
+        font-size: 16px;
+        display: inline-block;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    /* ----------- searchBox css start ----------  */
+    .searchBox {
+        background-color: #fff;
+        width: 350px;
+        height: 50px;
+        padding: 0px 5px;
+    }
+
+    #bgHome {
+        margin: 15px 0 0 5px;
+        width: 20px;
+        float: left;
+        padding: 0px;
+        position: sticky;
+    }
+
+    .searchInput {
+        margin-top: 15px;
+        margin-left: -20px;
+        max-width: 80%;
+        height: 20px;
+        float: left;
+        border: none;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    #searchBtn {
+        color: #634424;
+        margin-top: -30px;
+        margin-right: 0px;
+        float: right;
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    /* ----------- searchBox css end ----------------  */
+    /* =============== header css end =============== */
+
+    /* =============== selling section css start ================= */
+
+    .selling {
+        width: 80%;
+        height: 600px;
+    }
+
+    .selling .bubble {
+        height: 86px;
+        width: 86px;
+        margin-top: 0px;
+    }
+
+    .selling .bubbles .bubble2 {
+        display: none;
+    }
+
+    .selling .card-title {
+        font-size: 40px;
+        width: 400px;
+        margin-top: 90px;
+    }
+
+    .selling .card-subtitle {
+        font-size: 15px;
+        width: 400px;
+        text-align: justify;
+    }
+
+    .selling button {
+        margin-bottom: 2px;
+        padding-bottom: 2px;
+        color: #707070;
+        font-weight: 500;
+    }
+
+    #readMore img {
+        display: none;
+    }
+
+    .selling img {
+        width: 170px;
+        height: 170px;
+        border-radius: 200px 0px 200px 200px;
+        position: absolute;
+        float: left;
+        right: 10%;
+        top: 100%;
+        margin-top: 150px;
+    }
+
+    .selling #dotted {
+        display: none;
+    }
+
+
+    /* =============== selling section css end ================ */
+
+    /* ============= about section area start =============== */
+    /* ------------- about section area start -------------- */
+
+    .about h2,
+    .detailsAbout h2,
+    .customerSay h2 {
+        font-size: 40px;
+        width: 400px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    /* ----------- about section common css ----------- */
+    .about {
+        width: 470px;
+        height: 600px;
+    }
+
+    .about button {
+        float: left;
+        left: 50%;
+        margin-left: -350px;
+        margin-top: 140px;
+    }
+
+    .about .two,
+    .about .three {
+        display: none;
+    }
+
+    .about .card {
+        width: 350px;
+        left: 5%;
+        top: 15%;
+    }
+
+    .about .card .card-body .btnSearchHome {
+        width: 142px;
+        height: 37px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #9A764C;
+        padding-top: 5px;
+        margin-top: 20px;
+    }
+
+    /* -------------- about section css area end --------------- */
+
+
+
+
+
+
+
+
+}
+
+/* ========= phn + tab = 720px | md applies to small devices (landscape phones, less than 768px) ========= */
+@media (min-width: 576px) and (max-width: 767px) {
+    .selling {
+        display: none;
+    }
+
+    .customerSay {
+        display: none;
+    }
+
+    .contactDetails {
+        display: none;
+    }
+
+}
+
+
+/* ========== tablet =  960px | lg applies to medium devices (tablets, less than 992px) ========== */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .selling {
+        height: 720px;
+    }
+
+    .selling .bubble {
+        display: none;
+    }
+
+    .selling .card-title {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .selling .card-subtitle {
+        padding-bottom: 30px;
+    }
+
+    .selling button {
+        margin-top: -10px;
+        padding-bottom: 0px;
+    }
+
+    #readMore img {
+        display: none;
+    }
+
+    .selling img {
+        width: 280px;
+        height: auto;
+        margin-top: -140px;
+        bottom: 20px;
+    }
+
+    .about button,
+    .detailsAbout button,
+    .customerSay button {
+        margin-top: -20px;
+        margin-bottom: 10px;
+        float: right;
+    }
+
+    .detailsAbout .card,
+    .detailsAbout .card img {
+        width: 351.58px;
+        margin: auto;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .detailsAbout .card .card-body {
+        width: 323px;
+        height: 163px;
+        border-radius: 20px;
+        background-color: #fff;
+        position: absolute;
+        margin: 320px 0px 0px 31px;
+    }
+
+    .customerSay .content {
+        padding-top: 147px;
+        width: 900px;
+        padding-left: 30px;
+    }
+
+    .customerSay .bg p {
+        width: 300px;
+    }
+
+    .buying .arrow {
+        margin-top: -70px;
+    }
+
+    .contactUs .contentArea {
+        width: 765px;
+        height: 140px;
+        margin: 55px 0px 0px -230px;
+        background: linear-gradient(to bottom, #B8946E, #8F6B45);
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .contactUs .contentArea .card-body {
+        margin: 0px 0 0 0px;
+        float: left;
+    }
+
+    .contactDetails {
+        height: 280px;
+    }
+
+    .contactDetails .paddingTop {
+        padding-top: 72px;
+    }
+
+    .contactDetails .socialIcon .fab,
+    .contactDetails .socialIcon .fa-brands {
+        color: #fff;
+        border: none;
+        padding: 0px;
+    }
+
+    #footerLogo {
+        margin-left: -25px;
+    }
+
+}
+
+/* ========== desktop | xl applies to large devices (desktops, less than 1200px) ========== */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .selling .bubbles {
+        display: none;
+    }
+
+    .selling .bubbles .bubble2 {
+        display: none;
+    }
+
+    .about .three {
+        display: none;
+    }
+
+    .detailsAbout .card .card-body {
+        width: 323px;
+        height: 163px;
+        border-radius: 20px;
+        background-color: #fff;
+        position: absolute;
+        margin: 420px 0px 0px 131px;
+    }
+
+    .contactUs .contentArea {
+        width: 765px;
+        height: 140px;
+        margin: 55px 0px 0px -150px;
+        background: linear-gradient(to bottom, #B8946E, #8F6B45);
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .contactUs .contentArea .card-body {
+        margin: 10px 0 0 25px;
+        float: left;
+    }
+}
+
+/* ========== desktop | xxl applies to x-large devices (large desktops, less than 1400px) ========== */
+@media (max-width: 1399.98px) {
+
+    /* design container width 1140px */
+}

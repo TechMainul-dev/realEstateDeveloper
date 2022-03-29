@@ -1,0 +1,745 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+
+.container {
+    width: 1140px;
+}
+
+.gradient {
+    background: -webkit-linear-gradient(#e7b881, #78532d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.circle {
+    background-image: linear-gradient(#F4EEE6, #ffffff);
+    border-radius: 50%;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 173px;
+    height: 52px;
+    border: 1px solid #8B673D;
+    color: #818181;
+    background-color: #FFFFFF;
+
+}
+
+.btnSearchHome:hover,
+button:hover,
+submit:hover {
+    color: #fff;
+    box-shadow: 0 0 15px #8B673D;
+    transition: all 0.5s ease;
+    background: -webkit-linear-gradient(#e7b881, #78532d);
+}
+
+/*  ================ Common css end ================= */
+
+
+/* =============== navbar css start =============== */
+#home {
+    background: url(../img/home.png);
+    background-size: cover;
+    height: 770px;
+    /* width: 100%; */
+
+}
+
+#navbar {
+    overflow: hidden;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.navbar {
+    /* background: #000; */
+    border-bottom: 1px solid #2B3D2D;
+    text-transform: uppercase;
+}
+
+#navmenu ul li a {
+    font-size: 18.02px;
+    font-weight: 500;
+    margin-right: 30px;
+    color: #BD996F;
+    display: block;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: #000; */
+    background-image: url(../img/home.png);
+}
+
+#navmenu ul li a:hover {
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    transition: all linear 0.3s;
+}
+
+.collapse .navbar-nav .nav-link {
+    padding: 2px 5px;
+    margin-bottom: -2px;
+}
+
+/* =============== navbar css end =================== */
+
+
+/* =============== header css start =============== */
+.header .card {
+    border: none;
+}
+
+.card .card-body .card-title {
+    font-size: 75px;
+    padding-top: 62.4px;
+}
+
+.card .card-body .gradient {
+    font-weight: 900;
+    text-shadow: 0px 0px 0.1px #A07C53;
+}
+
+.card .card-body .card-subtitle {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-bottom: 44px;
+}
+
+.card .card-body .card-subtitle:hover {
+    color: #BD996F;
+    transition: all linear 0.3s;
+}
+
+.card .card-body .card-text {
+    width: 703px;
+    height: 63px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+/* ----------- searchBox css start ----------  */
+.searchBox {
+    background-color: #fff;
+    width: 527px;
+    height: 77px;
+    padding: 0px 20px;
+}
+
+#bgHome {
+    margin: 26px 0 0 0;
+    width: 20px;
+    float: left;
+    padding: 0px;
+    position: sticky;
+}
+
+.searchInput {
+    margin-top: 26px;
+    margin-left: -25px;
+    width: 350px;
+    height: 21px;
+    padding: 0px 32px;
+    float: left;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#searchBtn {
+    margin-top: -33px;
+    float: right;
+    width: 155px;
+    height: 49px;
+    background: linear-gradient(#ecb16d, #634424);
+    border: none;
+    font-size: 16px;
+}
+
+#bgHome {
+    background-color: white;
+}
+
+#bgHome img {
+    width: 15px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+    float: right;
+}
+
+/* ----------- searchBox css end ----------------  */
+/* =============== header css end =============== */
+
+
+
+/* =============== selling section css start ================= */
+/* ---------- selling section left colum css start ---------- */
+.selling {
+    height: 763px;
+}
+
+.selling .bubble {
+    height: 116px;
+    width: 116px;
+    margin-top: 71px;
+    display: inline-block;
+}
+
+.selling .card-title {
+    font-size: 50px;
+    padding-bottom: 18.6px;
+    margin-top: 200.6px;
+}
+
+.selling .card-subtitle {
+    font-size: 18px;
+    color: #707070;
+    padding-bottom: 50px;
+}
+
+.selling button {
+    margin-bottom: 2px;
+    padding-bottom: 3px;
+    color: #707070;
+    font-weight: 500;
+}
+
+#more {
+    display: none;
+}
+
+/* right_arrow */
+#readMore img {
+    width: 29.94px;
+    height: 18.71px;
+    margin-left: 18px;
+    margin-top: 0px;
+}
+
+
+.selling .bubbles .bubble2 {
+    width: 86px;
+    height: 86px;
+    margin: 80px -80px 0px 0px;
+    float: right;
+}
+
+/* ------------ selling section left colum css end ---------- */
+/* --------------------------------------------------------- */
+/* ---------- selling section right colum css start ------- */
+
+.selling #dotted {
+    width: 190px;
+    height: 232px;
+    margin-top: 74px;
+    margin-right: -35px;
+    background-image: radial-gradient(#2B3D2D 15%, transparent 20%),
+        radial-gradient(#2B3D2D 17%, transparent 20%);
+    background-size: 50px 50px;
+    /* background-position: 14px 0px, ; */
+    background-repeat: repeat;
+    float: right;
+    position: sticky;
+}
+
+.selling img {
+    width: 492.22px;
+    height: 515.42px;
+    position: relative;
+    margin-top: -157px;
+    border-radius: 200px 0px 200px 200px;
+}
+
+/* ---------- selling section right colum css end ---------- */
+/* =============== selling section css end ================ */
+
+/* ============= about section area start =============== */
+/* ------------- about section area start -------------- */
+
+.about h2,
+.detailsAbout h2,
+.customerSay h2 {
+    font-size: 50px;
+    width: 500px;
+    /* height: 87.28px; */
+    margin: 79px 0px 46.7px -25px;
+}
+
+.about button,
+.detailsAbout button,
+.customerSay button {
+    margin-top: 109px;
+    float: right;
+}
+
+/* ----------- about section common css ----------- */
+.about {
+    background-color: #2B3D2D;
+}
+
+.about .card {
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.about .card .card-body {
+    width: 351px;
+    height: 324px;
+}
+
+.about .card .card-body span {
+    background-color: white;
+    border: none;
+    color: #2B3D2D;
+    height: 80px;
+}
+
+.about .card .card-body .num {
+    font-size: 15px;
+    font-weight: 900;
+    color: #94734C;
+    padding: 6px 7px;
+    border: 2px solid #94734C;
+    float: left;
+    margin: 2px 12px 0 0px;
+    text-decoration: none;
+}
+
+.about .card .card-body .card-text {
+    width: 309px;
+    height: 99px;
+    font-size: 18px;
+    color: #707070;
+    padding-top: 16.2px;
+    border-top: 2px solid #D2D2D2;
+}
+
+.about .card .card-body .btnSearchHome {
+    width: 142px;
+    height: 37px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #9A764C;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+/* -------------- about section css area end --------------- */
+/* --------- detailsAbout section css area start ---------- */
+.detailsAbout {
+    padding-bottom: 100px;
+}
+
+.detailsAbout .header {
+    margin-bottom: -150px;
+}
+
+.detailsAbout .card,
+.detailsAbout .card img {
+    /* width: 351.58px;
+    height: 400.81px; */
+    border-radius: 206px 8px 8px 8px;
+}
+
+.detailsAbout .card .card-body {
+    width: 323px;
+    height: 163px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    margin: 320px 0px 0px 31px;
+}
+
+.detailsAbout .card-text {
+    width: 703px;
+    height: 63px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #707070;
+    margin: -13px 0px 24.1px -20px;
+}
+
+.detailsAbout .card .card-body .card-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: -60px;
+}
+
+.detailsAbout .card .card-body .card-text {
+    border-top: 1px solid #d8cec2;
+    ;
+    width: 300px;
+    padding-top: 13px;
+}
+
+.detailsAbout .card .card-body p {
+    font-size: 12px;
+    margin: -6px 0 16px 0;
+    color: #707070;
+    font-weight: 500;
+}
+
+.detailsAbout .card .card-body p i {
+    color: #000;
+}
+
+.detailsAbout .card-body .card-text .amount {
+    font-size: 18px;
+    font-weight: 600;
+    color: #91724c;
+}
+
+.detailsAbout #service {
+    margin-top: 142px;
+}
+
+/* --------- detailsAbout section css area end --------_---- */
+/* ============= about section css area end =============== */
+
+
+
+/* ============= customerSay section css area start =============== */
+.customerSay .header {
+    padding: 100px;
+}
+
+.customerSay .content {
+    padding-top: 147px;
+}
+
+.customerSay .bg {
+    background-color: #2B3D2D;
+    /* width: 775px; */
+    width: 81%;
+    height: 385px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+/* ----------- image part start -----------  */
+
+.customerSay .card {
+    margin-top: -140px;
+    float: left;
+    position: absolute;
+}
+
+.customerSay .card .card-title {
+    margin: -60px 0px 0px -10px;
+    float: left;
+    position: absolute;
+}
+
+.customerSay .card .card-body .customerImg {
+    border: 1px solid #634424;
+    border-radius: 206px 8px 8px 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* ----------- image part end -----------  */
+
+
+/* ----------- rating part start -----------  */
+.customerSay .rating {
+    width: 650px;
+    text-align: left;
+    padding: 71px 0px 0px 250px;
+}
+
+.customerSay .rating p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 492px;
+}
+
+.customerSay .rating .star {
+    width: 34.55px;
+    height: 32.86px;
+    background: linear-gradient(to right, #f7a708, #f3b434);
+    /* background: linear-gradient(to right, #FFAA00, #FFBD38); */
+    color: transparent;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+}
+
+.customerSay .rating h4 {
+    font-size: 24px;
+    color: #BD996F;
+}
+
+.customerSay .rating h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* ----------- rating part end -----------  */
+/* ============= customerSay section css area end =============== */
+
+
+
+/* ============= buying section css area start=============== */
+.buying {
+    height: 700px;
+    background-color: #2B3D2D;
+    margin-top: 130px;
+}
+
+#buying .card h2 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.buying .card {
+    border: none;
+}
+
+.buying .card .card-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 127.9px;
+}
+
+.buying .card .arrow .arrow-left {
+    margin-top: 75px;
+    margin-right: 20px;
+}
+
+.buying .arrow .float-start button {
+    width: 97.8px;
+    height: 43.63px;
+    background-color: #fff;
+    border-radius: 25px 0px 25px 25px;
+}
+
+.buying .arrow .float-start .fa-solid {
+    color: #8B673D;
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+.buying select {
+    -webkit-appearance: listbox !important;
+
+}
+
+.buying .row .card {
+    height: 583.37px;
+    margin: 58px 0 58px 0;
+}
+
+.buying .card .card-title {
+    margin-bottom: 57.1px;
+    color: #000;
+    font-size: 30px;
+}
+
+.buying .card select {
+    height: 59.04px;
+    font-size: 21px;
+    color: #707070;
+    font-weight: 500;
+    /* font-family: 'Poppins', sans-serif; */
+    margin-bottom: 17px;
+}
+
+.buying .card .input-group .test {
+    margin-right: 10px;
+}
+
+.buying .card button {
+    margin-top: 71px;
+    height: 58.04px;
+    background-color: #BD996F;
+}
+
+/* ============= buying section css area end =============== */
+
+
+
+/* ============= contactUs section area start =============== */
+/* --------- content Area css start -------- */
+
+.contactUs .contentArea {
+    width: 765px;
+    height: 140px;
+    margin-top: 116px;
+    background: linear-gradient(to bottom, #B8946E, #8F6B45);
+    border-radius: 10px;
+}
+
+.contactUs .contentArea .card-body {
+    margin: 10px 0 0 25px;
+    float: left;
+}
+
+.contactUs .contentArea .card-body h6 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 4.2px;
+}
+
+.contactUs .contentArea .card-body span {
+    font-size: 18px;
+    width: 50px;
+}
+
+.contactUs .submitBox {
+    float: right;
+    width: 307px;
+    height: 48px;
+    background-color: #fff;
+    margin: 40px 39px 0px 0px;
+}
+
+.contactUs .submitBox input {
+    border: none;
+    margin: 12px 0px 0px 20px;
+}
+
+.contactUs .submitBox button {
+    font-size: 18px;
+    font-weight: 300;
+    float: right;
+    width: 99px;
+    height: 35px;
+    margin: 6.5px 6.5px 0px 0px;
+    background: linear-gradient(to bottom, #B8946E, #8F6B45);
+}
+
+.contactUs .contactCard .bubbleA {
+    height: 116px;
+    width: 116px;
+    margin: 80px 81px 0px 0px;
+    background-image: linear-gradient(to bottom, rgba(182, 175, 134, 0.2), rgba(0.74, 0.60, 0.44, 0));
+}
+
+.contactUs .contactCard .bubbleB {
+    height: 116px;
+    width: 116px;
+    position: absolute;
+    left: 48%;
+    margin-top: -45px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, rgba(182, 175, 134, 0.2), rgba(0.74, 0.60, 0.44, 0));
+}
+
+.contactUs .contactCard .bubbleC {
+    height: 86px;
+    width: 86px;
+    margin: 110px 0px 0px 95px;
+
+    background-image: linear-gradient(to bottom, rgba(182, 175, 134, 0.2), rgba(0.74, 0.60, 0.44, 0));
+}
+
+/* --------- content Area css end -------- */
+/* ----------- contactDetails area css start ----------- */
+.contactDetails {
+    height: 444.5px;
+    background-color: #2B3D2D;
+    margin-top: -75px;
+}
+
+.contactDetails h4 {
+    color: #BD996F;
+    font-size: 24px;
+}
+
+.contactDetails .paddingTop {
+    padding-top: 172px;
+    width: 100%;
+    margin-left: 35px;
+}
+
+.contactDetails .socialIcon .fab,
+.contactDetails .socialIcon .fa-brands {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 7px;
+    border-radius: 50%;
+}
+
+.contactDetails .socialIcon .fab:hover,
+.contactDetails .socialIcon .fa-brands:hover {
+    color: #00aced;
+    border: 1px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.contactDetails a,
+.contactDetails span {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contactDetails a:hover {
+    color: #BD996F;
+    transition: all linear .20s;
+}
+
+.contactDetails .contactInfo {
+    float: right;
+}
+
+/* ----------- contactDetails area css end ----------- */
+/* ============= contactUs section area end =============== */
+
+
+
+/* ============= footer area start =============== */
+footer {
+    height: 115.5px;
+    background-color: #2B3D2D;
+}
+
+footer .footer {
+    border-top: 1px solid #162618;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #BD996F;
+}
+
+footer .footer h5 {
+    font-size: 20px;
+    margin-top: 29.5px;
+}
+
+footer .footer h6 {
+    font-size: 16px;
+}
+
+footer .footer h6 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contactDetails span:hover,
+footer .footer h6:hover,
+.footer a:hover {
+    color: rgb(21, 243, 184);
+    transition: all linear .40s;
+}
+
+.footer a:hover {
+    box-shadow: 0 0 15px #00aced;
+}
+
+/* ============= footer area end =============== */
